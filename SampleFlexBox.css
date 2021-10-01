@@ -1,0 +1,53 @@
+body{
+    padding: 2em;
+}
+
+.headerContainer{
+    display: flex;
+    flex-flow: column wrap ;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    padding: 10px;
+}
+.footerContainer{
+    display: flex;
+    flex-flow: column wrap ;
+    align-content: center;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 10px;
+}
+.mainContainer{
+    display: flex;
+    flex-flow: row wrap ;
+    align-content: center;
+    font-weight: bold;
+}
+
+.mainContainerItem{
+    text-align: left;
+    background: deepskyblue;
+}
+
+article{
+    padding: 10px;
+    margin: 10px;
+    background:pink;
+}
+.sidebarLeftItem{
+    background: gold;
+}
+.sidebarRightItem{
+    background:hotpink;
+}
+
+.sidebarItem{
+    flex: 1 0 0; border: 0px solid green;
+}
+.mainContainer{
+    flex : 3 0px;
+}
+.sidebarLeftItem{order: 1;}
+.mainContainerItem{order: 2;}
+.sidebarRightItem{order: 3;}
